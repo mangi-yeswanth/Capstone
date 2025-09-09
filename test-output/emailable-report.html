@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">FinalCapstoneSuite</th></tr>
+<tr><td><a href="#t0">AllTests</a></td><td class="num">11</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">570,774</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FinalCapstoneSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AllTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.PaymentPageTest</td><td><a href="#m0">verifyPaymentAndConfirmOrder</a></td><td rowspan="1">1757393087048</td><td rowspan="1">10223</td></tr><tr class="failedodd"><td rowspan="1">testcases.UserManagementTest</td><td><a href="#m1">registerUser</a></td><td rowspan="1">1757392713194</td><td rowspan="1">26610</td></tr><tr><th colspan="4">AllTests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.UserManagementTest</td><td><a href="#m2">deleteUser</a></td><td rowspan="1">1757392740315</td><td rowspan="1">0</td></tr><tr><th colspan="4">AllTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.CartPageTest</td><td><a href="#m3">verifyCartAndProceedToCheckout</a></td><td rowspan="1">1757393063519</td><td rowspan="1">21989</td></tr><tr class="passedodd"><td rowspan="1">testcases.CheckoutPageTest</td><td><a href="#m4">verifyCheckoutPageAndPlaceOrder</a></td><td rowspan="1">1757392872199</td><td rowspan="1">160259</td></tr><tr class="passedeven"><td rowspan="1">testcases.ContactUsTest</td><td><a href="#m5">verifyContactUsFormSubmission</a></td><td rowspan="1">1757393173264</td><td rowspan="1">43556</td></tr><tr class="passedodd"><td rowspan="2">testcases.HomePageTest</td><td><a href="#m6">verifyHomePageTitle</a></td><td rowspan="1">1757393098798</td><td rowspan="1">47596</td></tr><tr class="passedodd"><td><a href="#m7">verifySignUpButtonNavigation</a></td><td rowspan="1">1757393147988</td><td rowspan="1">23762</td></tr><tr class="passedeven"><td rowspan="3">testcases.LoginPageTest</td><td><a href="#m8">verifyInvalidLoginShowsError</a></td><td rowspan="1">1757392700657</td><td rowspan="1">10811</td></tr><tr class="passedeven"><td><a href="#m9">verifyLoginFunctionality</a></td><td rowspan="1">1757392648943</td><td rowspan="1">39745</td></tr><tr class="passedeven"><td><a href="#m10">verifySignupFunctionality</a></td><td rowspan="1">1757392690814</td><td rowspan="1">8211</td></tr><tr class="passedodd"><td rowspan="2">testcases.ProductPageTest</td><td><a href="#m11">verifyAddProductToCart</a></td><td rowspan="1">1757392741722</td><td rowspan="1">69686</td></tr><tr class="passedodd"><td><a href="#m12">verifyViewProduct</a></td><td rowspan="1">1757392813128</td><td rowspan="1">57134</td></tr><tr class="passedeven"><td rowspan="1">testcases.TestCasesPageTest</td><td><a href="#m13">verifyTestCasesPage</a></td><td rowspan="1">1757393034354</td><td rowspan="1">27661</td></tr></tbody>
+</table>
+<h2>AllTests</h2><h3 id="m0">testcases.PaymentPageTest#verifyPaymentAndConfirmOrder</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;form-control btn btn-primary submit-button&quot; data-qa=&quot;pay-button&quot; id=&quot;submit&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (760, 565). Other element would receive the click: &lt;iframe id=&quot;aswift_2&quot; name=&quot;aswift_2&quot; browsingtopics=&quot;true&quot; style=&quot;min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; allow=&quot;attribution-reporting; run-ad-auction&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20250904/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=3&amp;amp;uci=a!3&amp;amp;btvi=2&quot; data-google-container-id=&quot;a!3&quot; tabindex=&quot;0&quot; title=&quot;Advertisement&quot; aria-label=&quot;Advertisement&quot; data-google-query-id=&quot;COPT8bfvyo8DFXiqZgIdcWId0Q&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=139.0.7258.155)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e281132d91c0931b9958da422f4b72c1, clickElement {id=f.4E30525366C27AB046420A55F0CB3DC9.d.5DBCDF4EFD8F71C2D14DA13190AA80FC.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51302/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e281132d91c0931b9958da422f4b72c1)] -&gt; id: submit]
+Session ID: e281132d91c0931b9958da422f4b72c1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.PaymentPage.confirmOrder(PaymentPage.java:30)
+	at testcases.PaymentPageTest.verifyPaymentAndConfirmOrder(PaymentPageTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.UserManagementTest#registerUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id=&apos;id_gender1&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49568/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d37d4d29731e71812c2dd7f60d8d56a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.LoginPage.fillAccountInformation(LoginPage.java:78)
+	at testcases.UserManagementTest.registerUser(UserManagementTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.UserManagementTest#deleteUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method testcases.UserManagementTest.deleteUser() on instance testcases.UserManagementTest@1190200a depends on not successfully finished methods 
+[testcases.UserManagementTest.registerUser() on instance testcases.UserManagementTest@1190200a]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.CartPageTest#verifyCartAndProceedToCheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.CheckoutPageTest#verifyCheckoutPageAndPlaceOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.ContactUsTest#verifyContactUsFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.HomePageTest#verifySignUpButtonNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.LoginPageTest#verifyInvalidLoginShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.LoginPageTest#verifyLoginFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.LoginPageTest#verifySignupFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.ProductPageTest#verifyAddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.ProductPageTest#verifyViewProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.TestCasesPageTest#verifyTestCasesPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.013" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Invalid Login Functionality" name="User tries to login with invalid credentials - #1.1" time="9.459">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters invalid email "wronguser@gmail.com" and password "wrong@543211".passed
+And clicks on the login button..............................................passed
+Then Error message "Your email or password is incorrect!" should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Invalid Login Functionality" name="User tries to login with invalid credentials - #1.2" time="6.905">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters invalid email "fakeuser@mail.com" and password "test1234"..passed
+And clicks on the login button..............................................passed
+Then Error message "Your email or password is incorrect!" should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Invalid Login Functionality" name="User tries to login with invalid credentials - #1.3" time="7.425">
+<system-out><![CDATA[
+Given User is on the login page.............................................passed
+When User enters invalid email "invalid@mail.com" and password "password@99".passed
+And clicks on the login button..............................................passed
+Then Error message "Your email or password is incorrect!" should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with multiple valid credentials - #1.1" time="9.356">
+<system-out><![CDATA[
+Given User is on Home Page..................................................passed
+When User navigates to Login Page...........................................passed
+And User enters email "yeswanthmangi@gmail.com" and password "Yesh@66543211".passed
+And User clicks the login button............................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with multiple valid credentials - #1.2" time="10.779">
+<system-out><![CDATA[
+Given User is on Home Page..................................................passed
+When User navigates to Login Page...........................................passed
+And User enters email "testeruser1@gmail.com" and password "Test@1234"......passed
+And User clicks the login button............................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with multiple valid credentials - #1.3" time="9.696">
+<system-out><![CDATA[
+Given User is on Home Page..................................................passed
+When User navigates to Login Page...........................................passed
+And User enters email "testeruser2@gmail.com" and password "Pass@5678"......passed
+And User clicks the login button............................................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

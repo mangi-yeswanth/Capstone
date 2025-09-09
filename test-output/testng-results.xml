@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="11" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T10:07:26 IST" name="FinalCapstoneSuite" finished-at="2025-09-09T10:16:57 IST" duration-ms="570774">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T10:07:26 IST" name="AllTests" finished-at="2025-09-09T10:16:57 IST" duration-ms="570774">
+      <class name="testcases.ContactUsTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.ContactUsTest@8c3b9d]" started-at="2025-09-09T10:16:12 IST" name="setUp" finished-at="2025-09-09T10:16:13 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ContactUsTest.verifyContactUsFormSubmission()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsFormSubmission()[pri:0, instance:testcases.ContactUsTest@8c3b9d]" started-at="2025-09-09T10:16:13 IST" name="verifyContactUsFormSubmission" finished-at="2025-09-09T10:16:56 IST" duration-ms="43556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsFormSubmission -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ContactUsTest@8c3b9d]" started-at="2025-09-09T10:16:56 IST" name="tearDown" finished-at="2025-09-09T10:16:57 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactUsFormSubmission status=SUCCESS method=ContactUsTest.verifyContactUsFormSubmission()[pri:0, instance:testcases.ContactUsTest@8c3b9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ContactUsTest -->
+      <class name="testcases.ProductPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:09:00 IST" name="setUp" finished-at="2025-09-09T10:09:01 IST" duration-ms="1398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductPageTest.verifyAddProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddProductToCart()[pri:1, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:09:01 IST" name="verifyAddProductToCart" finished-at="2025-09-09T10:10:11 IST" duration-ms="69686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:10:11 IST" name="tearDown" finished-at="2025-09-09T10:10:11 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddProductToCart status=SUCCESS method=ProductPageTest.verifyAddProductToCart()[pri:1, instance:testcases.ProductPageTest@6a2f6f80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:10:11 IST" name="setUp" finished-at="2025-09-09T10:10:13 IST" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ProductPageTest.verifyViewProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyViewProduct()[pri:2, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:10:13 IST" name="verifyViewProduct" finished-at="2025-09-09T10:11:10 IST" duration-ms="57134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ProductPageTest@6a2f6f80]" started-at="2025-09-09T10:11:10 IST" name="tearDown" finished-at="2025-09-09T10:11:10 IST" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyViewProduct status=SUCCESS method=ProductPageTest.verifyViewProduct()[pri:2, instance:testcases.ProductPageTest@6a2f6f80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ProductPageTest -->
+      <class name="testcases.TestCasesPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.TestCasesPageTest@399c4be1]" started-at="2025-09-09T10:13:52 IST" name="setUp" finished-at="2025-09-09T10:13:54 IST" duration-ms="1359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCasesPageTest.verifyTestCasesPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTestCasesPage()[pri:0, instance:testcases.TestCasesPageTest@399c4be1]" started-at="2025-09-09T10:13:54 IST" name="verifyTestCasesPage" finished-at="2025-09-09T10:14:22 IST" duration-ms="27661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCasesPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.TestCasesPageTest@399c4be1]" started-at="2025-09-09T10:14:22 IST" name="tearDown" finished-at="2025-09-09T10:14:22 IST" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTestCasesPage status=SUCCESS method=TestCasesPageTest.verifyTestCasesPage()[pri:0, instance:testcases.TestCasesPageTest@399c4be1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCasesPageTest -->
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:14:57 IST" name="setUp" finished-at="2025-09-09T10:14:58 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.verifyHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:14:58 IST" name="verifyHomePageTitle" finished-at="2025-09-09T10:15:46 IST" duration-ms="47596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:15:46 IST" name="tearDown" finished-at="2025-09-09T10:15:46 IST" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle()[pri:1, instance:testcases.HomePageTest@5b94b04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:15:46 IST" name="setUp" finished-at="2025-09-09T10:15:47 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomePageTest.verifySignUpButtonNavigation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpButtonNavigation()[pri:2, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:15:47 IST" name="verifySignUpButtonNavigation" finished-at="2025-09-09T10:16:11 IST" duration-ms="23762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpButtonNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTest@5b94b04d]" started-at="2025-09-09T10:16:11 IST" name="tearDown" finished-at="2025-09-09T10:16:12 IST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpButtonNavigation status=SUCCESS method=HomePageTest.verifySignUpButtonNavigation()[pri:2, instance:testcases.HomePageTest@5b94b04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.PaymentPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.PaymentPageTest@385e9564]" started-at="2025-09-09T10:14:45 IST" name="setUp" finished-at="2025-09-09T10:14:47 IST" duration-ms="1141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.PaymentPageTest.verifyPaymentAndConfirmOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentAndConfirmOrder()[pri:0, instance:testcases.PaymentPageTest@385e9564]" started-at="2025-09-09T10:14:47 IST" name="verifyPaymentAndConfirmOrder" finished-at="2025-09-09T10:14:57 IST" duration-ms="10223" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="form-control btn btn-primary submit-button" data-qa="pay-button" id="submit" type="submit">...</button> is not clickable at point (760, 565). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250904/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=2" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COPT8bfvyo8DFXiqZgIdcWId0Q" data-load-complete="true"></iframe>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e281132d91c0931b9958da422f4b72c1, clickElement {id=f.4E30525366C27AB046420A55F0CB3DC9.d.5DBCDF4EFD8F71C2D14DA13190AA80FC.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51302/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e281132d91c0931b9958da422f4b72c1)] -> id: submit]
+Session ID: e281132d91c0931b9958da422f4b72c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="form-control btn btn-primary submit-button" data-qa="pay-button" id="submit" type="submit">...</button> is not clickable at point (760, 565). Other element would receive the click: <iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20250904/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=3&amp;uci=a!3&amp;btvi=2" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COPT8bfvyo8DFXiqZgIdcWId0Q" data-load-complete="true"></iframe>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e281132d91c0931b9958da422f4b72c1, clickElement {id=f.4E30525366C27AB046420A55F0CB3DC9.d.5DBCDF4EFD8F71C2D14DA13190AA80FC.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51302/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e281132d91c0931b9958da422f4b72c1)] -> id: submit]
+Session ID: e281132d91c0931b9958da422f4b72c1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.PaymentPage.confirmOrder(PaymentPage.java:30)
+at testcases.PaymentPageTest.verifyPaymentAndConfirmOrder(PaymentPageTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentAndConfirmOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.PaymentPageTest@385e9564]" started-at="2025-09-09T10:14:57 IST" name="tearDown" finished-at="2025-09-09T10:14:57 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentAndConfirmOrder status=FAILURE method=PaymentPageTest.verifyPaymentAndConfirmOrder()[pri:0, instance:testcases.PaymentPageTest@385e9564] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.PaymentPageTest -->
+      <class name="testcases.CartPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.CartPageTest@291caca8]" started-at="2025-09-09T10:14:22 IST" name="setUp" finished-at="2025-09-09T10:14:23 IST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.CartPageTest.verifyCartAndProceedToCheckout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartAndProceedToCheckout()[pri:0, instance:testcases.CartPageTest@291caca8]" started-at="2025-09-09T10:14:23 IST" name="verifyCartAndProceedToCheckout" finished-at="2025-09-09T10:14:45 IST" duration-ms="21989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartAndProceedToCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CartPageTest@291caca8]" started-at="2025-09-09T10:14:45 IST" name="tearDown" finished-at="2025-09-09T10:14:45 IST" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartAndProceedToCheckout status=SUCCESS method=CartPageTest.verifyCartAndProceedToCheckout()[pri:0, instance:testcases.CartPageTest@291caca8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CartPageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:07:26 IST" name="setupExtent" finished-at="2025-09-09T10:07:26 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:07:26 IST" name="setUp" finished-at="2025-09-09T10:07:28 IST" duration-ms="2383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.verifyLoginFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality()[pri:1, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:07:28 IST" name="verifyLoginFunctionality" finished-at="2025-09-09T10:08:08 IST" duration-ms="39745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:08 IST" name="tearDown" finished-at="2025-09-09T10:08:09 IST" duration-ms="787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality()[pri:1, instance:testcases.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:09 IST" name="setUp" finished-at="2025-09-09T10:08:10 IST" duration-ms="1334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.verifySignupFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignupFunctionality()[pri:2, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:10 IST" name="verifySignupFunctionality" finished-at="2025-09-09T10:08:19 IST" duration-ms="8211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:19 IST" name="tearDown" finished-at="2025-09-09T10:08:19 IST" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignupFunctionality status=SUCCESS method=LoginPageTest.verifySignupFunctionality()[pri:2, instance:testcases.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:19 IST" name="setUp" finished-at="2025-09-09T10:08:20 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginPageTest.verifyInvalidLoginShowsError()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidLoginShowsError()[pri:3, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:20 IST" name="verifyInvalidLoginShowsError" finished-at="2025-09-09T10:08:31 IST" duration-ms="10811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginShowsError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:08:31 IST" name="tearDown" finished-at="2025-09-09T10:08:31 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLoginShowsError status=SUCCESS method=LoginPageTest.verifyInvalidLoginShowsError()[pri:3, instance:testcases.LoginPageTest@71e9ddb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:testcases.LoginPageTest@71e9ddb4]" started-at="2025-09-09T10:16:57 IST" name="tearDownExtent" finished-at="2025-09-09T10:16:58 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.UserManagementTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.UserManagementTest@1190200a]" started-at="2025-09-09T10:08:31 IST" name="setUp" finished-at="2025-09-09T10:08:33 IST" duration-ms="1310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.UserManagementTest.registerUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser()[pri:1, instance:testcases.UserManagementTest@1190200a]" started-at="2025-09-09T10:08:33 IST" name="registerUser" finished-at="2025-09-09T10:08:59 IST" duration-ms="26610" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='id_gender1'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49568/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d37d4d29731e71812c2dd7f60d8d56a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id='id_gender1'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49568/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d37d4d29731e71812c2dd7f60d8d56a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.LoginPage.fillAccountInformation(LoginPage.java:78)
+at testcases.UserManagementTest.registerUser(UserManagementTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.UserManagementTest@1190200a]" started-at="2025-09-09T10:08:59 IST" name="tearDown" finished-at="2025-09-09T10:09:00 IST" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUser status=FAILURE method=UserManagementTest.registerUser()[pri:1, instance:testcases.UserManagementTest@1190200a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteUser()[pri:2, instance:testcases.UserManagementTest@1190200a]" started-at="2025-09-09T10:09:00 IST" name="deleteUser" finished-at="2025-09-09T10:09:00 IST" depends-on-methods="testcases.UserManagementTest.registerUser" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testcases.UserManagementTest.deleteUser() on instance testcases.UserManagementTest@1190200a depends on not successfully finished methods 
+[testcases.UserManagementTest.registerUser() on instance testcases.UserManagementTest@1190200a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testcases.UserManagementTest.deleteUser() on instance testcases.UserManagementTest@1190200a depends on not successfully finished methods 
+[testcases.UserManagementTest.registerUser() on instance testcases.UserManagementTest@1190200a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- testcases.UserManagementTest -->
+      <class name="testcases.CheckoutPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.CheckoutPageTest@45b4c3a9]" started-at="2025-09-09T10:11:10 IST" name="setUp" finished-at="2025-09-09T10:11:12 IST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.CheckoutPageTest.verifyCheckoutPageAndPlaceOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutPageAndPlaceOrder()[pri:0, instance:testcases.CheckoutPageTest@45b4c3a9]" started-at="2025-09-09T10:11:12 IST" name="verifyCheckoutPageAndPlaceOrder" finished-at="2025-09-09T10:13:52 IST" duration-ms="160259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPageAndPlaceOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CheckoutPageTest@45b4c3a9]" started-at="2025-09-09T10:13:52 IST" name="tearDown" finished-at="2025-09-09T10:13:52 IST" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutPageAndPlaceOrder status=SUCCESS method=CheckoutPageTest.verifyCheckoutPageAndPlaceOrder()[pri:0, instance:testcases.CheckoutPageTest@45b4c3a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CheckoutPageTest -->
+    </test> <!-- AllTests -->
+  </suite> <!-- FinalCapstoneSuite -->
+</testng-results>

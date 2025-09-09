@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FinalCapstoneSuite]">
+  <test thread-count="5" name="AllTests(failed)">
+    <classes>
+      <class name="testcases.UserManagementTest">
+        <methods>
+          <include name="setupExtent"/>
+          <include name="setUp"/>
+          <include name="registerUser"/>
+          <include name="deleteUser"/>
+          <include name="tearDown"/>
+          <include name="tearDownExtent"/>
+        </methods>
+      </class> <!-- testcases.UserManagementTest -->
+      <class name="testcases.PaymentPageTest">
+        <methods>
+          <include name="setupExtent"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPaymentAndConfirmOrder"/>
+          <include name="tearDownExtent"/>
+        </methods>
+      </class> <!-- testcases.PaymentPageTest -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [FinalCapstoneSuite] -->

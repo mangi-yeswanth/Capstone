@@ -1,0 +1,18 @@
+<suite name="FinalCapstoneSuite">
+
+    <test name="AllTests">
+        <classes>
+            <class name="testcases.LoginPageTest"/>
+            <class name="testcases.UserManagementTest"/>
+            <class name="testcases.ProductPageTest"/>
+            <class name="testcases.CheckoutPageTest"/>
+            <class name="testcases.TestCasesPageTest"/>
+            <class name="testcases.CartPageTest"/>
+            <class name="testcases.PaymentPageTest"/>
+            <class name="testcases.HomePageTest"/>
+            <class name="testcases.ContactUsTest"/>
+            <!-- Add any future test classes here -->
+        </classes>
+    </test>
+
+</suite>
